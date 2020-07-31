@@ -31,6 +31,7 @@ button {
   letter-spacing: 2px;
   transition: all 0.3s ease-out;
    display: block;
+   align-items: center;
 }
 button:hover,
 button:focus,
@@ -60,4 +61,22 @@ h1 {
     text-transform: uppercase;
     letter-spacing: .4em;
     width: 100%;
+}
+img{
+ 
+     position:absolute;
+     top:3px;
+     right:3px;
+}
+
+#f{
+ position:absolute;
+     top:3px;
+     right:10px;
+}
+
+#l{
+   position:absolute;
+     top:3px;
+     right:40px;
 }
