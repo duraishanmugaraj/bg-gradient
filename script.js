@@ -20,7 +20,7 @@ function generateGradient() {
   let gradient = "",
   mode = "";
   for (let i = 0; i < 4; i++) {
-    const deg = Math.floor(Math.random() * 180);
+    const deg = Math.floor(Math.random() * 270);
     const firstColor = randomColor({
       luminosity: "bright",
       hue: "blue",
@@ -32,8 +32,8 @@ function generateGradient() {
       format: "rgba",
       alpha: 0.5 });
 
-    const firstSpread = Math.floor(Math.random() * 90);
-    const lastSpread = Math.floor(Math.random() * 180);
+    const firstSpread = Math.floor(Math.random() * 45);
+    const lastSpread = Math.floor(Math.random() * 90);
     mode += `${blendModes[Math.floor(Math.random() * blendModes.length)]},`;
     gradient += `linear-gradient(${deg}deg, ${firstColor} ${firstSpread}%, ${lastColor} ${lastSpread}%),`;
   }
