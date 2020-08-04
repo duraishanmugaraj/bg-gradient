@@ -5,15 +5,10 @@ const textarea = document.querySelector("textarea");
 let style = "";
 
 const blendModes = [
-"normal",
-"multiply",
-"screen",
-"overlay",
-"lighten",
-"hard-light",
+
 "soft-light",
-"hue",
-"color"];
+"lighten",
+];
 
 
 function generateGradient() {
